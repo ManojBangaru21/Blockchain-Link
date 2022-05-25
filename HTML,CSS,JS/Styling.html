@@ -5,21 +5,21 @@
     <title>
       Forms Tab
     </title>
-    <link rel="Stylesheet" href="sample1.css">
-      </head>
+    <!-- Styling done as a  seperate section-->
+    <style></style> 
+    </head>
       <body>
-       <div> 
-        <header>Enter the details in the below form</header>
+       <div style="background-color: yellow;"> 
+        <header onclick="javascript:alert('Hello Manoj')">Enter the details in the below form</header>
         <ul>
          <li><a href="FirstProgram.html">Home</a></li> <!--To create hyperlinks-->
          <li>About Us</li> 
          <li>Contact</li>
         </ul>
-      <h1>Manoj Kumar Bangaru</h1>
         <form action="FirstProgram.html" method="post"><!--Post method is used to hide the input in URL when entered in the form; 'get' method to view values in url-->
           email<br>
-          <input type="email" name="Email address">
-          <h4 class="uname">Username</h4><br>
+          <input type="email" name="Email address"
+          Username<br>
           <input type="text" name="Username"><br>
           Password<br>
           <input type="password" name="Password"><br>
@@ -38,6 +38,6 @@
 <textarea name="Mahesh" >Textarea</textarea>
           </form>
         </div>
-        
+        <!--<script src="sample.js"></script>this is a way to include JS in html-->>
       </body> 
 </html>
