@@ -2,7 +2,7 @@ body{
   background-color: bisque;
 }
 
-h1
+h2
 {
   color: blue;
   font-size: 50px;
@@ -10,6 +10,20 @@ h1
   background-image: url("");
   text-align: center;
 }
+h2:hover{
+  color: red;
+
+}
 .uname{
   color: blue;
+}
+
+/*#google-link:link{ //psuedoselectors
+  color: blue;
+}
+#google-link:visited{
+  color:red;
+}*/
+textarea ~ button{
+  color: red;
 }
