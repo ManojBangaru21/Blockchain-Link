@@ -1,0 +1,29 @@
+body{
+  background-color: bisque;
+}
+
+h2
+{
+  color: blue;
+  font-size: 50px;
+  background-color: darkgoldenrod;
+  background-image: url("");
+  text-align: center;
+}
+h2:hover{
+  color: red;
+
+}
+.uname{
+  color: blue;
+}
+
+/*#google-link:link{ //psuedoselectors
+  color: blue;
+}
+#google-link:visited{
+  color:red;
+}*/
+textarea ~ button{
+  color: red;
+}
