@@ -5,7 +5,7 @@ body{
 h2
 {
   color: blue;
-  font-size: 50px;
+  font-size: 100px;
   background-color: darkgoldenrod;
   background-image: url("");
   text-align: center;
@@ -15,11 +15,11 @@ h2:hover{
 
 }
 
-#CSS1color{
-  color: blue;
+#CSS1color{ 
+  color: blue; /*this is for id*/
 }
 .Css2{
-  font-size: 60px;
+  font-size: 60px; /*this is for Class */
 }
 .uname{
   color: blue;
