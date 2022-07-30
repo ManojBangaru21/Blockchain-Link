@@ -9,6 +9,8 @@ h2
   background-color: darkgoldenrod;
   background-image: url("");
   text-align: center;
+  font-variant: small-caps;
+  cursor: auto;
 }
 h2:hover{
   color: red;
@@ -23,6 +25,7 @@ p{ /* this is called box model*/
 }
 #CSS1color{ 
   color: blue; /*this is for id*/
+ /* cursor: all-scroll;*/
 }
 .Css2{
   font-size: 60px; /*this is for Class */
@@ -40,7 +43,7 @@ p{ /* this is called box model*/
 textarea ~ button{
   color: red;
 }
-div{
+div:hover{
   border: 5px solid;
   border-color: yellowgreen;
   padding: 5px;
@@ -50,6 +53,7 @@ div{
   line-height: 50px;
   text-indent: 20px;
   word-spacing: 10px;
+  opacity: 0.5;
 }
 a:link{
   color: blue;
