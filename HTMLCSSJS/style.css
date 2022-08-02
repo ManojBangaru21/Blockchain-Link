@@ -1,4 +1,4 @@
-body{
+body{ 
   background-color: bisque;
 }
 
@@ -17,6 +17,7 @@ h2:hover{
 
 
 }
+
 p{ /* this is called box model*/
   border: 1px solid;
   padding: 10px;
@@ -43,18 +44,28 @@ p{ /* this is called box model*/
 textarea ~ button{
   color: red;
 }
-div:hover{
+div{
   border: 5px solid;
   border-color: yellowgreen;
   padding: 5px;
+  width: 350px;
+  height: 150px;
+  margin-left: -1px;
   margin-top: 5px;
   color: blue;
-  text-align: justify;
-  line-height: 50px;
+  /* text-align: justify; */
+  line-height: 30px;
   text-indent: 20px;
   word-spacing: 10px;
   opacity: 0.5;
-}
+  /* overflow: scroll; used to scroll the content that is going out the container. Here it is <div> */ 
+  overflow-y: scroll;
+  
+  }
+  ul{
+    list-style-type: lower-alpha;
+    margin-left: 0px;
+  }
 a:link{
   color: blue;
 }
@@ -63,4 +74,23 @@ a:visited{
 }
 a:active{
   color: blue;
+}
+caption{
+  border-style: solid ;
+  border-color: blueviolet;
+}
+table{
+  border: 1px solid;
+  width: 10px;
+}
+tr{
+  border: 1px solid; 
+}
+th{
+border: 1px solid;
+border-color: aqua;
+}
+td{
+  border: 1px solid;
+  text-align: center;
 }
