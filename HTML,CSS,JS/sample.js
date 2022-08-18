@@ -1,1 +1,0 @@
-alert("Hello Am from JS file")
