@@ -13,6 +13,22 @@
  {
      console.log(`this is  not necessary`)
  }*/
+
+ /*
+ let x =1 // to declare a variable
+ let result = ''
+     if(x%2===0)
+ {
+ result = "Even"
+ }
+ /*else
+ {
+    result = "odd"
+ }*/
+ 
+ result = num1%2 === 0? "Even" : "Odd"  // Ternary operator
+ 
+
  /*x++
 }*/
 
