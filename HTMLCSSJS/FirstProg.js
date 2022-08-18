@@ -26,7 +26,7 @@
     result = "odd"
  }*/
  
- result = num1%2 === 0? "Even" : "Odd"  // Ternary operator
+ //result = num1%2 === 0? "Even" : "Odd"  // Ternary operator
  
 
  /*x++
