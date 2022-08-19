@@ -43,13 +43,13 @@ console.log(num,num1)*/
 
 // Relational Operators
 
-let a = 10
-let b = 12
+// let a = 10
+// let b = 12
 
-let result = a > b
+// let result = a > b
 // Template literal -  ${}
-console.log(` a is greater than b result`)
-console.log(` ${a} is greater than ${b} is ${result}`)
+// console.log(` a is greater than b result`)
+// console.log(` ${a} is greater than ${b} is ${result}`)
 
 // Use '===' to compare values and type
 // use '=' for assignment
