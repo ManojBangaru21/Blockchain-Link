@@ -30,3 +30,19 @@
 //     console.log("Hello world")
 //     count++
 // }while(count<5)
+
+
+// Switch case 
+// let day="Sun"
+// switch(day)
+// {
+//     case "Sat":
+//     case "Sun":
+//         console.log("Wake up at 6AM")
+//         break
+//     case "Mon": case "Tue":
+//         console.log("Wake at 7AM")
+//     break
+//         default:
+//     console.log("Day dreaming")           
+// }
