@@ -54,9 +54,9 @@ console.log(num,num1)*/
 // Use '===' to compare values and type
 // use '=' for assignment
 // Use '==' for compare values but not type
-let age = 30
-while (age < 50)
-{
-    console.log(" you are middle age person")
-    break
-}
+// let age = 30
+// while (age < 50)
+// {
+//     console.log(" you are middle age person")
+//     break
+// }
