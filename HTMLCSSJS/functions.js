@@ -34,3 +34,15 @@
 // }
 // console.log(obj2)
 
+// javascript is a functional programming Lang
+// define, assign, return, passed
+
+let add = function(n1,n2){
+    console.log(`This is another way of creating function. Function is getting addigned to a variable`)
+return n1+n2
+}
+ add(10,25) // to call the above function
+
+//  let sum = add //assigning a function
+
+//  let  sum1 = add() //calling a function
