@@ -37,13 +37,26 @@
 // javascript is a functional programming Lang
 // define, assign, return, passed
 
-let add = function(n1,n2) //let add = ( n1+n2 ) => 
-{
-   // console.log(`This is another way of creating function. Function is getting addigned to a variable`)
- return n1+n2;
-}
-console.log(add(10,25))  // to call the above function
+// let add = function(n1,n2) //let add = ( n1+n2 ) => 
+// {
+//    // console.log(`This is another way of creating function. Function is getting addigned to a variable`)
+//  return n1+n2;
+// }
+// console.log(add(10,25))  // to call the above function
 
 //  let sum = add //assigning a function
 
 //  let  sum1 = add() //calling a function
+
+//How to differntiate function from cronstructor?? usage of 'this' keyword and we will not return any output in constructor
+
+//Creating a constructor
+function Student(name,age,dob){
+    this.name=name
+    this.age=age
+    this.dob=dob
+}
+
+let student1 = new Student('Manoj',25,'21Sep1992')
+
+console.log(student1)
