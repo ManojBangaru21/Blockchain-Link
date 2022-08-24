@@ -15,7 +15,7 @@
 
 // person1.greet()
 
-let a =10, c = 50
-b = 40
-sum = a + b + c
-console.log(sum)
+// let a =10, c = 50
+// b = 40
+// sum = a + b + c
+// console.log(sum)
