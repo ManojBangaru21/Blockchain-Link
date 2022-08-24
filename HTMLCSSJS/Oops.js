@@ -11,5 +11,11 @@
 //    }
 // }
 
-// let person1 = new Person("Manoj") // instead of 'let' we can use 'const' also
+// let person1 = new Person("Manoj") // instead of 'let' we can use 'const' also. 'Const' refers to constant value, we cannot reassign a new value
+
 // person1.greet()
+
+let a =10, c = 50
+b = 40
+sum = a + b + c
+console.log(sum)
