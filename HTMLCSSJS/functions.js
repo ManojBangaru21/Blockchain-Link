@@ -54,7 +54,7 @@
 function Student(name,age,dob){
     this.name=name
     this.age=age
-    this.dob=dob
+    this.dob=dob  
 }
 
 let student1 = new Student('Manoj',25,'21Sep1992')
