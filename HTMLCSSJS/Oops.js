@@ -1,7 +1,7 @@
 //creation of class 
 
 // class Person{
-//     constructor(name) // constructor will assign the values
+//     constructor(name) // constructor will assign the values. One class can have only one constructor
 //    {
 //         this.name=name
 //    }  
