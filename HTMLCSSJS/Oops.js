@@ -46,24 +46,24 @@
 
 
 
-class car{
-    constructor(name,brand){
-        this.name=name
-        this.brand=brand
-    }
+// class car{
+//     constructor(name,brand){
+//         this.name=name
+//         this.brand=brand
+//     }
    
-}
+// }
 
-class Maruti extends car{
-    constructor(name,make)
-{   super(name)
-    this.name=name
-    this.make=make
-}
-print()
-{
-    console.log(this.name,this.make)
-}
-}
-let Maruti1 = new Maruti("Honda","Kia")
-Maruti1.print()
+// class Maruti extends car{
+//     constructor(name,make)
+// {   super(name)
+//     this.name=name
+//     this.make=make
+// }
+// print()
+// {
+//     console.log(this.name,this.make)
+// }
+// }
+// let Maruti1 = new Maruti("Honda","Kia")
+// Maruti1.print()
