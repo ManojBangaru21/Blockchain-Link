@@ -24,12 +24,12 @@
 //     count++
 // }
 
-// do-while loop (Post-increment loop)
-// let count = 1
-// do{
-//     console.log("Hello world")
-//     count++
-// }while(count<5)
+//do-while loop (Post-increment loop)
+let count = 1
+do{
+    console.log("Hello world")
+    count++
+}while(count<5)
 
 
 // Switch case 
