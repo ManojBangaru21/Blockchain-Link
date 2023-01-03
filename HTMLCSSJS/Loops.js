@@ -46,3 +46,6 @@
 //         default:
 //     console.log("Day dreaming")           
 // }
+
+// break will stop the iteration from execution
+// continue will skip the existing iteration
