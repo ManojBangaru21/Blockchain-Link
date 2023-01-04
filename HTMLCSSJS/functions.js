@@ -35,7 +35,7 @@
 // educated  : "yes",
 // marital_status : "Married"
 // }
-// console.log(obj2)
+// console.log(obj2.age)
 
 
 // javascript is a functional programming Lang
