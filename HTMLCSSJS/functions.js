@@ -84,13 +84,13 @@
 // console.log(sub)
 
 
-function Match (name,age,sex)
-{
-    this.name = name
-    this.age = age
-    this.sex=sex
-} 
+// function Match (name,age,sex)
+// {
+//     this.name = name
+//     this.age = age
+//     this.sex=sex
+// } 
 
-let match1 = new Match("Manoj", 30 , "Male")
-console.log(match1)
-console.clear()
+// let match1 = new Match("Manoj", 30 , "Male")
+// console.log(match1)
+// console.clear()
