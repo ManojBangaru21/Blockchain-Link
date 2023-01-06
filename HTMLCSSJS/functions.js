@@ -43,7 +43,7 @@
 
 // let add = function(n1,n2) //let add = ( n1+n2 ) => 
 // {
-//    // console.log(`This is another way of creating function. Function is getting addigned to a variable`)
+//  console.log(`This is another way of creating function. Function is getting addigned to a variable`)
 //  return n1+n2;
 // }
 // console.log(add(10,25))  // to call the above function
@@ -64,3 +64,21 @@
 // let student1 = new Student('Manoj',25,'21Sep1992')
 
 // console.log(student1)
+
+
+// let diff = function(n1,n2){
+//     return n1 - n2
+// }
+
+// let sub = diff(10,5)
+
+// console.log(sub)
+
+// let diff = (n1,n2) => //this is arrow function.
+// {
+//     return n1 - n2
+// }
+
+// let sub = diff(10,15)
+
+// console.log(sub)
