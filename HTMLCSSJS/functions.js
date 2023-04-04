@@ -43,7 +43,7 @@
 
 // let add = function(n1,n2) //let add = ( n1+n2 ) => 
 // {
-//  console.log(`This is another way of creating function. Function is getting addigned to a variable`)
+//  console.log(`This is another way of creating function. Function is getting assigned to a variable`)
 //  return n1+n2;
 // }
 // console.log(add(10,25))  // to call the above function
